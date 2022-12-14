@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: midnight;
+}
+
+@font-face {
+    font-family: midnight;
+    src: url(../font/midnight/Midnight_Drive.otf);
+}
+
+.header{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+}
+
+.logo{
+    width: 13vw;
+    height: 18vh;
+    align-items: center;
+    margin-left: 43%;
+}
+
+.nav1{
+    display: flex;
+    height: 11vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.p1{
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 25px;
+    display: block;
+    color: black;
+}
+
+.p2{
+    font-size: 19px;
+}
+.p3{
+    font-size: 18px;
+}
+
+.allform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izqimg{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.imgdiv{
+    width: 34vw;
+    height: 37vh;
+    border: 1px black solid;
+    border-radius: 3px;
+    margin:5px;
+}
+
+.derimg{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.inder{
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    margin:5px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+body{
+    background-image: url(../Pictures/background.jpg);
+}
+
+.div1{
+    border-radius: 5px;
+    width: auto;
+    padding: 20px;
+}
+
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=email], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inizq{
+   height: 250px;
+   background-color: rgb(182, 182, 182);
+   border: 1px black solid;
+   margin:5px;
+   text-align: center;
+}
+
+.inder{
+    height: 250px;
+    background-color: rgb(182, 182, 182);
+    border: 1px black solid;
+    margin:5px;
+    text-align: center;
+ }
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
